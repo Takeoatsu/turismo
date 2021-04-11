@@ -87,7 +87,8 @@ header .textos-header{
 }
 
 .img-port-recor{
-    width: 48%;
+    width: 40%;
+    border-radius: 10px;
 }
 
 .contenedor-tours .contenedor-textrecor{

@@ -87,6 +87,7 @@ header .textos-header{
 
 .imagen-alojamiento{
     width: 48%;
+    border-radius: 10px;
 }
 
 .contenedor_productos .contenedor-texto_alojamiento{

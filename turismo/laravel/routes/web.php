@@ -49,3 +49,15 @@ Route::get('/ciudad_perdida', function () {
 Route::get('/caño_cristal', function () {
     return view('caño');
 });
+
+Route::get('/tour_peñol', function () {
+    return view('peñol');
+});
+
+Route::get('/tour_graffiti', function () {
+    return view('graffiti');
+});
+
+Route::get('/tour_rosario', function () {
+    return view('rosario');
+});

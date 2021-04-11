@@ -74,19 +74,19 @@
                         <img src="img/tour1.jpg" alt="">
                         <h3>El Peñol</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                        <a href="/index"><button type="button">Reserbame</button></a>
+                        <a href="/tour_peñol"><button type="button">Reserbame</button></a>
                     </div>
                     <div class="servi_indi">
                         <img src="img/tour2.jpg" alt="">
                         <h3>Graffiti - Comuna 13</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                        <a href="/index"><button type="button">Reserbame</button></a>
+                        <a href="/tour_graffiti"><button type="button">Reserbame</button></a>
                     </div>
                     <div class="servi_indi">
                         <img src="img/tour3R.jpg" alt="">
                         <h3>Isla Rosario</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                        <a href="/index"><button type="button">Reserbame</button></a>
+                        <a href="/tour_rosario"><button type="button">Reserbame</button></a>
                     </div>
                     
                    

@@ -182,8 +182,6 @@ footer {
 }
 
 .img-port-recor{
-    display: inline-block;
-    justify-content:auto;
     border-radius: 10px;
     width: 48%;
 }

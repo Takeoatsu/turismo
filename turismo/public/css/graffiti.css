@@ -81,16 +81,17 @@ header .textos-header{
     margin-bottom: 10px;
 }
 
-.contenedor-hotel {
+.contenedor-graffiti {
     display: flex; 
     justify-content: space-evenly;
 }
 
 .img-port-recor{
     width: 48%;
+    border-radius: 10px;
 }
 
-.contenedor-hotel .contenedor-texthot{
+.contenedor-graffiti .contenedor-texthot{
     width:48%;
 }
 
@@ -179,11 +180,6 @@ footer {
     border-radius: 10px 10px 0 0;
     text-align: center;
     align-items: center;
-}
-
-.img-port-recor{
-    border-radius: 10px;
-    width: 48%;
 }
 
 #CB_Selec{

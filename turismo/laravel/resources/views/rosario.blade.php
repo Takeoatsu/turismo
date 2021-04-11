@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Caño Cristal</title>
+      <title>Tour islas del Rosario - Cartajena de Indias</title>
       <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
-      <link rel="stylesheet" href="css/nevado.css">
+      <link rel="stylesheet" href="css/rosario.css">
       <!-- CSS only -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,13 +37,13 @@
          </section>
       </header>
       <main>
-         <section class= "contenedor nevado">
+         <section class= "contenedor rosario">
             <h2 class="titulo">
-            Caño Cristal
+            Tour islas del Rosario - Cartajena de Indias
             </h2>
             <!-- Estas son las caracteristicas del recorrido -->
-            <div class="contenedor-recorrido">
-               <img src="img/caño.jpg" alt="" class = "img-port-recor">
+            <div class="contenedor-rosario">
+               <img src="img/rosario.jpg" alt="" class = "img-port-recor">
                <div class="contenedor-texthot">
                   <h2>
                      Caracteristicas del recorrido
@@ -65,22 +65,22 @@
             <div class = "formu">
                <h2 class = "Titulo">Reserva</h2>
                <div class="selecc-select">
-                  Seleccione la ubicación de su recorrido:
+                  Seleccione la ubicación de su tour:
                   <form name = "CB_Selec"action="" id = "CB_Selec">
                      <select class="form-select" name="opt" id="selecc" >
-                         <option value="0">--Seleccione un recorrido--</option>
-                        <option value="1">Caldas</option>
-                        <option value="2">Magdalena</option>
-                        <option value="3">Meta</option>
+                         <option value="0">--Seleccione un tour--</option>
+                        <option value="1">Guatape</option>
+                        <option value="2">Medellín</option>
+                        <option value="3">Cartagena de Indias</option>
                      </select>
                   </form>
                   <input type="button" name ="btnConocer" id = "btnConocer" value="Conocer"
                      onclick = "" >
                </div>
                <div class="info">
-                  <p>Nombre del recorrido: <input  type ="text" id ="id_nom" class ="form-control" readonly></p>
-                  <p>Localidad del recorrido: <input type ="text" name ="loc_alo" id ="id_loc" class ="form-control"readonly></p>
-                  <p>Precio del recorrido: <input type ="money" name ="pre_alo" id ="id_pre" class ="form-control"readonly></p>
+                  <p>Nombre del tour: <input  type ="text" id ="id_nom" class ="form-control" readonly></p>
+                  <p>Localidad del tour: <input type ="text" name ="loc_alo" id ="id_loc" class ="form-control"readonly></p>
+                  <p>Precio del tour: <input type ="money" name ="pre_alo" id ="id_pre" class ="form-control"readonly></p>
                   <input type="button" name ="btncargar" id = "btnCargar" value="Reservar"
                      onclick = "" >
                </div>
