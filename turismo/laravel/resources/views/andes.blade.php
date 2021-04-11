@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Cañas Gordas</title>
+      <title>Andes</title>
       <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
-      <link rel="stylesheet" href="css/cañas.css">
+      <link rel="stylesheet" href="css/andes.css">
       <!-- CSS only -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,9 +37,9 @@
          </section>
       </header>
       <main>
-         <section class= "contenedor cañas">
+         <section class= "contenedor Andes">
             <h2 class="titulo">
-               Hotel Las Cañas
+               El cafetal de Andes
             </h2>
             <!-- Estas son las caracteristicas del recorrido -->
             <div class="contenedor-hotel">
@@ -48,15 +48,15 @@
                   <h2>
                      Caracteristicas del hotel
                   </h2>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
                </div>
             </div>
@@ -107,7 +107,7 @@
                   <p>Valor total: <input type="money" name ="V_final" id ="id_final" class ="form-control"readonly></p>
                   <input type="button" name ="btnRegistrar" id = "btnRegistrar" value="Registrar reserva"
                      onclick = "" >
-                  <input type="button" name ="btn" id = "btn" value ="Atras"
+                     <input type="button" name ="btn" id = "btn" value ="Atras"
                   onclick = "history.back()">
 
                </div>

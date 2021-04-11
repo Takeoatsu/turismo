@@ -77,28 +77,28 @@ header .textos-header{
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color: white
+    color: #fff;
+    margin-bottom: 10px;
 }
 
-.contenedor-alojamientos {
+.contenedor-recorrido {
     display: flex; 
     justify-content: space-evenly;
 }
 
-.img-port-aloja{
-    border-radius: 10px;
+.img-port-recor{
     width: 48%;
 }
 
-.contenedor-alojamientos .contenedor-textaloja{
+.contenedor-recorrido .contenedor-texthot{
     width:48%;
 }
 
-.contenedor-textaloja h3{
+.contenedor-texthot h3{
     margin-bottom: 15px;
 }
 
-.contenedor-textaloja h3 span{
+.contenedor-texthot h3 span{
     background: #4d0686;
     color: #fff;
     border-radius: 50%;
@@ -112,86 +112,10 @@ header .textos-header{
     margin-right: 5px;
 }
 
-.contenedor-textaloja p{
+.contenedor-texthot p{
     padding: 0 0 30px 15px; 
     font-weight: 300;
     text-align: justify;
-}
-
-.acerca-aloja{
-    background: #f2f2f2;
-    padding-bottom: 30px;
-}
-
-.servicio-cont{ 
-    border-radius: 10px;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-}
-
-.servi_indi{
-    width:48%; 
-    text-align: center;
-    border-radius: 10px;
-}
-
-.servi_indi > img{
-    width:90%;
-    height:90%;
-    object-fit: cover;
-    display: block;
-    justify-content: space-evenly;
-    border-radius: 10px;
-}
-
-.servi_indi h3 {
-    margin: 10px 0;
-}
-
-.servi_indi p {
-    padding: 0 0 30px 15px; 
-    font-weight: 300;
-    text-align: justify;
-}
-
-.servi_indi button {
-    border: none;
-    background:#4d0686;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 4px; 
-    color: #fff;
-    border-radius: 10px;
-}
-
-
-
-.servi_indi button:hover{
-    text-decoration: underline;
-}
-
-.contenedor button{
-    border: none;
-    background:#4d0686;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 4px; 
-    color: #fff;
-    border-radius: 10px;
 }
 footer {
     background: #414141;
@@ -232,3 +156,127 @@ footer {
     color: #939797
 }
 
+
+.Titulo {
+    color: #642a73;
+    font: size 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.formu {
+    justify-content: center;
+    background-color: #c1c1c1;
+    text-align: center;
+    padding: 10px;
+}
+
+.selecc-select {
+    display: inline-block;
+    background-color: #f2f2ff;
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    align-items: center;
+}
+
+#CB_Selec{
+
+    width: 50%;
+    display: inline-block;
+    padding: 5px;
+}
+
+#btnConocer{
+    border: none;
+    background: #4d0686;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#btnCargar {
+    border: none;
+    background: #4d0686;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#btn{
+
+    border: none;
+    background: #4d0686;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.info{
+    display: inline-block;
+    background-color: #f2f2ff;
+    padding: 5px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+
+.reser{
+    display: inline-block;
+    background-color: #f2f2ff;
+    padding: 5px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+
+#id_date{
+    text-align: center;
+    align-items: center;
+}
+
+.opt_ext-select{
+
+    display: inline-block;
+    background-color: #f2f2ff;
+    padding: 5px;
+    width: 70%;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#cb_extra{
+    width: 50%;
+    display: inline-block;
+    padding: 5px;
+}
+
+#btnRegistrar{
+    border: none;
+    background: #4d0686;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    color: #fff;
+    border-radius: 10px;
+}

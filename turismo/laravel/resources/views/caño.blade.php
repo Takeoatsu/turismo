@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Cañas Gordas</title>
+      <title>Ciudad perdida</title>
       <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
-      <link rel="stylesheet" href="css/cañas.css">
+      <link rel="stylesheet" href="css/nevado.css">
       <!-- CSS only -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,26 +37,26 @@
          </section>
       </header>
       <main>
-         <section class= "contenedor cañas">
+         <section class= "contenedor nevado">
             <h2 class="titulo">
-               Hotel Las Cañas
+            Ciudad perdida
             </h2>
             <!-- Estas son las caracteristicas del recorrido -->
-            <div class="contenedor-hotel">
-               <img src="img/canasgordas.jpg" alt="" class = "img-port-recor">
+            <div class="contenedor-recorrido">
+               <img src="img/caño.jpg" alt="" class = "img-port-recor">
                <div class="contenedor-texthot">
                   <h2>
-                     Caracteristicas del hotel
+                     Caracteristicas del recorrido
                   </h2>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
-                  <h3><span></span> Esta es una caracteristica del hotel.</h3>
+                  <h3><span></span> Esta es una caracteristica del recorrido.</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ea voluptatibus odio architecto voluptate soluta itaque ipsam in sequi fuga ad, ipsa beatae esse numquam illo veritatis illum ab ex!</p>
                </div>
             </div>
@@ -65,22 +65,22 @@
             <div class = "formu">
                <h2 class = "Titulo">Reserva</h2>
                <div class="selecc-select">
-                  Seleccione la ubicación de su alojamiento:
+                  Seleccione la ubicación de su recorrido:
                   <form name = "CB_Selec"action="" id = "CB_Selec">
                      <select class="form-select" name="opt" id="selecc" >
-                         <option value="0">--Seleccione un hotel--</option>
-                        <option value="1">Cañas Gordas</option>
-                        <option value="2">Andes</option>
-                        <option value="3">Jardín</option>
+                         <option value="0">--Seleccione un recorrido--</option>
+                        <option value="1">Caldas</option>
+                        <option value="2">Magdalena</option>
+                        <option value="3">Meta</option>
                      </select>
                   </form>
                   <input type="button" name ="btnConocer" id = "btnConocer" value="Conocer"
                      onclick = "" >
                </div>
                <div class="info">
-                  <p>Nombre del alojamiento: <input  type ="text" id ="id_nom" class ="form-control" readonly></p>
-                  <p>Localidad del alojamiento: <input type ="text" name ="loc_alo" id ="id_loc" class ="form-control"readonly></p>
-                  <p>Precio por día: <input type ="money" name ="pre_alo" id ="id_pre" class ="form-control"readonly></p>
+                  <p>Nombre del recorrido: <input  type ="text" id ="id_nom" class ="form-control" readonly></p>
+                  <p>Localidad del recorrido: <input type ="text" name ="loc_alo" id ="id_loc" class ="form-control"readonly></p>
+                  <p>Precio del recorrido: <input type ="money" name ="pre_alo" id ="id_pre" class ="form-control"readonly></p>
                   <input type="button" name ="btncargar" id = "btnCargar" value="Reservar"
                      onclick = "" >
                </div>
@@ -88,9 +88,7 @@
                   <p>Nombre de la reserva: <input type ="text" name ="nom_res" id ="id_nom_res"class ="form-control"></p>
                   <p>Identificación: <input type ="int" name ="id_reserv" id ="id_reserv"class ="form-control"></p>
                   <p>Acompañantes: <input type ="int" name ="Acom_res" id ="id_aco_res"class ="form-control"></p>
-                  <p>Número de camas: <input type ="int" name ="Num_Cam" id ="id_cama"class ="form-control"></p>
-                  <p>Fecha de ingreso: <input type ="date" name ="fecha" id ="id_date"class ="form-control"></p>
-                  <p>Días de estadia: <input type ="int" name ="dias" id ="id_dia"class ="form-control"></p>
+                  <p>Fecha de recorrido: <input type ="date" name ="fecha" id ="id_date"class ="form-control"></p>
                 </div>  
 
                 <div class="opt_ext-select">
@@ -107,7 +105,7 @@
                   <p>Valor total: <input type="money" name ="V_final" id ="id_final" class ="form-control"readonly></p>
                   <input type="button" name ="btnRegistrar" id = "btnRegistrar" value="Registrar reserva"
                      onclick = "" >
-                  <input type="button" name ="btn" id = "btn" value ="Atras"
+                     <input type="button" name ="btn" id = "btn" value ="Atras"
                   onclick = "history.back()">
 
                </div>

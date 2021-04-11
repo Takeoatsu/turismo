@@ -181,6 +181,13 @@ footer {
     align-items: center;
 }
 
+.img-port-recor{
+    display: inline-block;
+    justify-content:auto;
+    border-radius: 10px;
+    width: 48%;
+}
+
 #CB_Selec{
 
     width: 50%;
@@ -214,7 +221,6 @@ footer {
     border-radius: 10px;
 }
 
-
 #btn{
 
     border: none;
@@ -228,6 +234,7 @@ footer {
     color: #fff;
     border-radius: 10px;
 }
+
 .info{
     display: inline-block;
     background-color: #f2f2ff;

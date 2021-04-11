@@ -30,3 +30,22 @@ Route::get('/Contacto', function () {
 Route::get('/cañas', function () {
     return view('cañas');
 });
+Route::get('/jardin', function () {
+    return view('jardin');
+});
+
+Route::get('/andes', function () {
+    return view('andes');
+});
+
+Route::get('/nevado_ruiz', function () {
+    return view('nevado');
+});
+
+Route::get('/ciudad_perdida', function () {
+    return view('ciudad');
+});
+
+Route::get('/caño_cristal', function () {
+    return view('caño');
+});

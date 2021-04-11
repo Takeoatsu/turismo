@@ -81,7 +81,7 @@ header .textos-header{
     margin-bottom: 10px;
 }
 
-.contenedor-recorridos {
+.contenedor-tours {
     display: flex; 
     justify-content: space-evenly;
 }
@@ -90,8 +90,9 @@ header .textos-header{
     width: 48%;
 }
 
-.contenedor-recorridos .contenedor-textrecor{
+.contenedor-tours .contenedor-textrecor{
     width:48%;
+    border-radius: 10px;
 }
 
 .contenedor-textrecor h3{
@@ -118,7 +119,7 @@ header .textos-header{
     text-align: justify;
 }
 
-.acerca-recor {
+.acerca-tour {
     background: #f2f2f2;
     padding-bottom: 30px;
 }
@@ -176,7 +177,6 @@ header .textos-header{
 .servi_indi button:hover{
     text-decoration: underline;
 }
-
 
 footer {
     background: #414141;

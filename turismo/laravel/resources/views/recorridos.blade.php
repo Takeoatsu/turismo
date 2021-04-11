@@ -72,21 +72,21 @@
                 <div class="servicio-cont">
                     <div class="servi_indi">
                         <img src="img/recorrido1.jpg" alt="">
-                        <h3>Nombre</h3>
+                        <h3>Nevadol del Ruiz</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                        <a href="/index"><button type="button">Reserbame</button></a>
+                        <a href="/nevado_ruiz"><button type="button">Reserbame</button></a>
                     </div>
                     <div class="servi_indi">
                         <img src="img/recorrido2.jpg" alt="">
-                        <h3>Nombre</h3>
+                        <h3>Ciudad Perdida</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                        <a href="/index"><button type="button">Reserbame</button></a>
+                        <a href="/ciudad_perdida"><button type="button">Reserbame</button></a>
                     </div>
                     <div class="servi_indi">
                         <img src="img/recorrido3.jpg" alt="">
-                        <h3>Nombre</h3>
+                        <h3>Caño Cristal</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                        <a href="/index"><button type="button">Reserbame</button></a>
+                        <a href="/caño_cristal"><button type="button">Reserbame</button></a>
                     </div>
                     
                    

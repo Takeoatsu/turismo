@@ -64,21 +64,21 @@
                <div class="servicio-cont">
                   <div class="servi_indi">
                      <img src="img/aloja2.jpg" alt="">
-                     <h3>Nombre</h3>
+                     <h3>Cañas Gordas</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
                      <a href="/cañas"><button type="button">Reservame</button></a>
                   </div>
                   <div class="servi_indi">
                      <img src="img/aloja3.jpg" alt="">
-                     <h3>Nombre</h3>
+                     <h3>Jardín</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                     <a href="/index"><button type="button">Reservame</button></a>
+                     <a href="/jardin"><button type="button">Reservame</button></a>
                   </div>
                   <div class="servi_indi">
                      <img src="img/aloja4.jpg" alt="">
-                     <h3>Nombre</h3>
+                     <h3>Andes</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                     <a href="/index"><button type="button">Reservame</button></a>
+                     <a href="/andes"><button type="button">Reservame</button></a>
                   </div>
                </div>
             </div>

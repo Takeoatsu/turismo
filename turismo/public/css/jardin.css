@@ -181,6 +181,13 @@ footer {
     align-items: center;
 }
 
+.img-port-recor{
+    display: inline-block;
+    justify-content:auto;
+    border-radius: 10px;
+    width: 48%;
+}
+
 #CB_Selec{
 
     width: 50%;
@@ -189,6 +196,20 @@ footer {
 }
 
 #btnConocer{
+    border: none;
+    background: #4d0686;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#btn{
+
     border: none;
     background: #4d0686;
     padding: 15px 32px;
@@ -214,20 +235,6 @@ footer {
     border-radius: 10px;
 }
 
-
-#btn{
-
-    border: none;
-    background: #4d0686;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 4px;
-    color: #fff;
-    border-radius: 10px;
-}
 .info{
     display: inline-block;
     background-color: #f2f2ff;
