@@ -17,6 +17,10 @@ Route::get('/index', function () {
 Route::get('/alojamientos', function () {
     return view('alojamientos');
 });
+
+//Route::get('/alojamientos', 'site\AlojaContoller@Mostrar');
+
+
 Route::get('/recorridos', function () {
     return view('recorridos');
 });

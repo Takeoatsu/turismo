@@ -1,3 +1,10 @@
+<?php
+
+use App\Model\Alojamiento;
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
    <head>
