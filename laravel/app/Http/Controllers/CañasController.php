@@ -4,11 +4,28 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Model\Alojamiento;
+use App\Model\Cañas;
 
 class CañasController extends Controller
 {    
 
+
+     /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
         $precio = 10000;
@@ -18,7 +35,7 @@ class CañasController extends Controller
     public function store(Request $request){
        
         $id=$request->get('id');
-        $alojamiento = new Alojamiento([
+        $cañas = new Cañas([
             'id'=>$request->get('id'),
             'Nombre'=>$request->get('Nombre'),
             'Localidad'=>$request->get('Localidad'),
@@ -27,9 +44,10 @@ class CañasController extends Controller
             'Fecha_Ingreso'=>$request->get('Fecha_Ingreso'),
             'Total_Dias'=>$request->get('Total_Dias'),
             'Serv_Extra'=>$request->get('Serv_Extra'),
+            'Valor_Extra'=>$request->get('Valor_Extra'),
             'Precio_Final'=>$request->get('Precio_Final')
         ]);
-        $alojamiento -> save();
-        return view("/cañas");
+        $cañas -> save();
+        return view("/Cañas");
     } 
 }

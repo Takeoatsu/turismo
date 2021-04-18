@@ -35,7 +35,7 @@ Route::get('/Contacto', function () {
     return view('cañas');
 });*/
 
-Route::resource('/cañas', 'CañasController');
+Route::resource('/Cañas', 'CañasController');
 
 Route::get('/jardin', function () {
     return view('jardin');

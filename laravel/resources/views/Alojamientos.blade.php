@@ -66,7 +66,7 @@
                      <img src="img/aloja2.jpg" alt="">
                      <h3>Cañas Gordas</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, alias!</p>
-                     <a href="/cañas"><button type="button">Reservame</button></a>
+                     <a href="/Cañas"><button type="button">Reservame</button></a>
                   </div>
                   <div class="servi_indi">
                      <img src="img/aloja3.jpg" alt="">

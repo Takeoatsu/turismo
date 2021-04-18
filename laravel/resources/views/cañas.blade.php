@@ -70,9 +70,11 @@
                @php 
 
                $Precio = 10000;
-               $Precio_Final = $Precio;
-
+               $Valor_Extra = 10000;
+               $Precio_Final = $Precio + $Valor_Extra;
                @endphp
+               
+
 
                @csrf
                <div class="info">
@@ -96,7 +98,7 @@
                         </select>
                     </form>
                   
-                  <p>Valor servicio extra: <input type="money" name ="V_extr" id = "id_vextr" class ="form-control"readonly></p>
+                  <p>Valor servicio extra: <input type="money" name ="V_extr" id = "id_vextr" class ="form-control"readonly value ="{{$Valor_Extra}}"></p>
                   <p>Valor total: <input type="money" name ="V_final" id ="id_final" class ="form-control"readonly value = "{{$Precio_Final}}"></p>
                   <!--<input type="button" name ="btnRegistrar" id = "btnRegistrar" value="Registrar reserva"
                      onclick = "" >-->
